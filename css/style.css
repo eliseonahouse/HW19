@@ -289,3 +289,16 @@
           font-size: small;
        }
      }
+
+     .aboutHead {
+       font-family: roboto;
+       padding-top: 50px;
+        padding-left: 40px;
+        line-height: normal;
+     }
+     .aboutBody {
+       font-family: openSans;
+       padding-top: 50px;
+        padding-left: 40px;
+        line-height: normal;
+     }
