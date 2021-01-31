@@ -26,7 +26,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 1005;
+    
+  }
+
+  .socialIcons img {
+    /* max-width: 70%; */
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
   }
   
   header {
@@ -106,7 +115,7 @@
   }
   
   a:active {
-    color: orangered;
+    color: #8AD0CC;
     text-decoration: none;
   }
   
@@ -202,6 +211,10 @@
        flex: 50%;
        max-width: 50%;
     }
+    .heroImage {
+      width: 10%;
+      margin-left: 10px;
+    }
  }
  @media screen and (max-width: 600px) {
     .inner-grid {
@@ -213,3 +226,21 @@
       margin-left: 0;
     }
  }
+
+ .image-frame {
+   display: flex;
+   float: center; 
+   padding-left: 10px; 
+   margin: 5px;
+   position: relative;
+   color: #333;
+  }
+
+  .image-frame .image-caption {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    background: lightgray;
+    width: 290px;
+    opacity: 0.8;}
