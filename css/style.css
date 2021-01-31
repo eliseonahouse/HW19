@@ -175,7 +175,7 @@
   
   /* Responsive columns - one column layout (vertical) on small screens */
   /* @media screen and (max-width: 600px) {
-    .col {
+    .skillsCardCol {
       width: 100%;
       display: block;
       margin-bottom: 20px;
@@ -288,6 +288,7 @@
         #li_email a {
           font-size: small;
        }
+
      }
 
      .aboutHead {
