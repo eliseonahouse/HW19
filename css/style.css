@@ -166,7 +166,7 @@
   
   /* Style the counter cards */
   .textCard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     padding: 16px;
     text-align: center;
     background-color: #89D0CB;
@@ -175,19 +175,14 @@
   
   /* Responsive columns - one column layout (vertical) on small screens */
   /* @media screen and (max-width: 600px) {
-    .skillsCardCol {
+    .textCard {
       width: 100%;
       display: block;
       margin-bottom: 20px;
+      min-height: 20px;
     }
   } */
   
-
-   /* .introPics {
-     display: flex;
-     align-items: center;
-   } */
-
 
   .outer-grid {
     display: flex;
